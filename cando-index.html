@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SC´s site</title>
+    <style>
+        body { font-family: serif; margin: 0; background: #FCF9E9; color: #2A4357; }
+        header { padding: 20px; text-align: center; }
+        nav a {
+            margin: 0 15px; text-decoration: none; color: #573E2A;
+            font-size: 18px;
+        }
+        nav a.active { border-bottom: 1px solid #000; }
+        .gallery-home { display: flex; gap: 10px; padding: 30px; justify-content: center; }
+        .gallery-home img { width: 30%; height: auto; object-fit: cover; }
+        .quote { text-align: center; margin: 20px; font-size: 18px; padding: 10px; }
+        .signature { 
+            font-size: 18px; 
+            text-align: center; 
+            opacity: 0.3; 
+            font-family: "Times New Roman", serif; 
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Libros y lectura: una ventana al conocimiento</h1>
+    <nav>
+        <a href="#" class="active">home</a>
+        <a href="#">gallery</a>
+        <a href="#">about that</a>
+    </nav>
+</header>
+
+<section class="gallery-home">
+    <img src="https://i.pinimg.com/736x/0e/7a/e2/0e7ae2068aa3bff0a598efcd6e26189f.jpg" alt="">
+    <img src="https://i.pinimg.com/736x/56/00/c9/5600c92bc8c9d6691b24066569e1ec60.jpg" alt="">
+    <img src="https://i.pinimg.com/736x/66/2c/9e/662c9edb1a8e2d55d81ffee14725cd95.jpg" alt="">
+</section>
+
+
+<div class="container">
+
+    <h1 style="text-align:center;">¿Por qué este tema es importante?</h1>
+
+
+
+    <div class="content">
+           La lectura fomenta la comprensión, la concentración y el análisis. Además, ayuda a mejorar el vocabulario, la escritura y la capacidad de expresar ideas con claridad. Los libros también permiten reflexionar sobre experiencias humanas, valores y emociones, convirtiéndose en un apoyo tanto académico como personal.
+        </p>
+    </div>
+
+
+<p class="quote">
+    “Un letor vive mil vidas antes de morir, el que no lee, solo vive una” -George R. R. Martin
+</p>
+
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Style</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #FCF9E9;
+            font-family: serif, sans-serif;
+        }
+        header { padding: 20px; text-align: center; 
+              font-family: serif, sans-serif;
+            text-decoration: none;
+            color: #;
+
+        }
+
+        .sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .box a {
+            text-decoration: none;
+            color: #2A4357;
+            display: block;
+            text-align: center;
+        }
+
+        .box .img {
+            width: 100%;
+            height: 230px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 12px;
+        }
+
+        .box p {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <h1>Tipos de libros</h1>
+  
+</header>
+
+    <section class="sections">
+
+        <div class="box">
+            <a href="section1">
+                <div class="img" style="background-image:url('https://i.pinimg.com/736x/5b/d7/2a/5bd72ab2d5417e7631a9b468d0329b1c.jpg');"></div>
+                <p>Libros Literarios</p>
+            </a>
+        </div>
+
+        <div class="box">
+            <a href="section2">
+                <div class="img" style="background-image:url('https://i.pinimg.com/736x/c9/28/8e/c9288e6155602517c0355e267940ad62.jpg');"></div>
+                <p>Libros informativos</p>
+            </a>
+        </div>
+
+        <div class="box">
+            <a href="section3">
+                <div class="img" style="background-image:url('https://i.pinimg.com/736x/39/7a/2f/397a2fa1fc52c9cd3eac460fa91e41f9.jpg');"></div>
+                <p>Libros Históricos</p>
+            </a>
+        </div>
+
+        <div class="box">
+            <a href="section4">
+                <div class="img" style="background-image:url('https://i.pinimg.com/736x/f2/62/f2/f262f2bae3854666b9d70b3db109631f.jpg');"></div>
+                <p>Libros de desarrollo personal</p>
+            </a>
+        </div>
+
+        <div class="box">
+            <a href="section">
+                <div class="img" style="background-image:url('https://i.pinimg.com/736x/a4/5a/ee/a45aee3745450ac90219e8072f74413b.jpg');"></div>
+                <p>libros juveniles</p>
+            </a>
+        </div>
+
+    </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Libros Literarios</title>
+    <style>
+        body { margin: 0; font-family: serif; background: #FCF9E9; color: #2A4357; }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border: 1px solid #ccc;
+            margin-top: 40px;
+        }
+        .hero img {
+            width: 100%; height: auto;
+        }
+        .features {
+            display: flex; justify-content: space-around;
+            text-align: center; margin: 20px 0;
+        }
+        .features div { width: 30%; }
+        .content { padding: 20px 0; }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1 style="text-align:center;">Libros Literarios</h1>
+
+    <div class="hero">
+        <img src="big_image.jpg" alt="">
+    </div>
+
+       <div class="content">
+        <p>novelas, cuentos y poesía que desarrollan la creatividad y la imaginación.</p>
+       
+</div>
+
+
+<div class="container">
+
+    <h1 style="text-align:center;">Libros Informativos</h1>
+
+    <div class="hero">
+        <img src="big_image.jpg" alt="">
+    </div>
+
+ 
+    <div class="content">
+        <p>enciclopedias, textos científicos y educativos que transmiten conocimientos.
+    </div>
+
+</div>
+
+<div class="container">
+
+    <h1 style="text-align:center;">Libros Históricos</h1>
+
+    <div class="hero">
+        <img src="big_image.jpg" alt="">
+    </div>
+
+  
+    <div class="content">
+        <p>narran hechos del pasado y ayudan a comprender la evolución de la sociedad.</p>
+    </div>
+
+</div>
+
+
+<div class="container">
+
+    <h1 style="text-align:center;">Libros de desarrollo personal</h1>
+
+    <div class="hero">
+        <img src="big_image.jpg" alt="">
+    </div>
+
+
+    <div class="content">
+        <p>orientados al crecimiento emocional y motivacional.
+    </div>
+
+</div>
+
+
+
+<div class="container">
+
+    <h1 style="text-align:center;">Libros Juveniles</h1>
+
+    <div class="hero">
+        <img src="big_image.jpg" alt="">
+    </div>
+
+
+    <div class="content">
+        <p>dirigidos a adolescentes y jóvenes, abordan temas como la amistad, la identidad, los retos personales y el crecimiento emocional, facilitando el hábito de la lectura de forma cercana y atractiva.</p>
+     </div>
+
+</div>
+
+<p class="signature">by SC</p>
+
+</body>
+
+
+
+</html>
+
+
